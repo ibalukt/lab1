@@ -1,0 +1,88 @@
+body {
+    margin:0px;
+    font-family: 'Bangers', cursive;
+    background-color:rgb(21,37,50);
+    color:black;
+    /*color:rgb(27,57,82);*/
+    /*text-shadow: 1px 1px red;*/
+}
+
+h1 {
+    font-size:3em;
+    text-align:center;
+}
+
+h2 {
+    font-size:1.5em;
+    text-align:center;
+}
+
+p {
+    text-align:center;
+    color:black;
+}
+
+table{
+    border:1px solid lightgray;
+    width: 100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#headingContainer{
+    padding:50px;
+    background-color:white;
+    /*background-color:rgb(184, 18, 18);*/
+}
+
+#bigContainer {
+    background-color:white;
+    width:70%;
+    margin-top:50px;
+    margin-left:auto;
+    margin-right:auto;
+    border:1px solid lightgray;
+    margin-bottom:50px;
+}
+
+#chartContainer {
+    max-width:100%;
+}
+
+tr {
+    border:1px solid lightgray;
+}
+
+td {
+    border: 1px solid lightgray;
+}
+
+form{
+    width:100%;
+    border:1px solid lightgray;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#button {
+    height: 30px;
+    width: 100px;
+    border:1px solid lightgray;
+    text-align:center;
+    padding-top:5px;
+    font-size:20px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:25px;
+    margin-top:20px;
+}
+
+#nameSearch {
+    display:block;
+    height: 40px;
+    font-size:30px;
+    margin-top:35px;
+    /*margin-bottom:25px;*/
+    margin-left:auto;
+    margin-right:auto;
+}

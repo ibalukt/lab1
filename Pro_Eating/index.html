@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Competitive Eating Stats">
+        <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+        <meta name="author" content="Luke Ibach">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css" >
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+
+    </head>
+    <body>
+        <div id="headingContainer">
+            <h1> PRO EATER STATS!</h1>
+
+            <h2> This site is meant to display info on competitive eaters and their accomplishments </h2>
+        </div>
+
+        <div id="bigContainer">
+            <div id="chartContainer">
+                <canvas id="myChart"></canvas>
+            </div>
+
+            <form>
+                <p>Search an eater from the list above!</p>
+                <input id="nameSearch" type="text"><br> 
+                <div id="button">SEARCH</div>
+            </form>
+
+            <table id="eaterStats">
+                <tr>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                </tr>
+
+                <tr>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                </tr>
+            </table>
+        </div>
+        
+        <script src="pro_eaters.js"></script>
+        <script src="number_of_records.js"></script>
+        <script src="eater_search.js"></script>
+    </body>
+</html>
